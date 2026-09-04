@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="veloxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bf4300" />
+      <stop offset="100%" stop-color="#8a3000" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#veloxGrad)" />
+  <!-- Accent highlight ring -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#ffb599" stroke-opacity="0.3" stroke-width="4" />
+  <!-- Icon: Fast Delivery Box & Motion Lines -->
+  <g filter="url(#shadow)" fill="#ffffff" transform="translate(40, 40) scale(0.84)">
+    <path d="M256 64L96 156v198l160 94 160-94V156L256 64zm0 46.5l118.8 68.6-47.5 27.5L208.5 138 256 110.5zm-24 162.2L120 208v-28.5l112 64.7v28.5zm48 0v-28.5l112-64.7V208l-112 64.7z"/>
+    <!-- Motion speed streaks -->
+    <rect x="30" y="220" width="80" height="14" rx="7" fill="#ffb599" opacity="0.9" />
+    <rect x="10" y="255" width="120" height="14" rx="7" fill="#ffffff" opacity="0.9" />
+    <rect x="40" y="290" width="70" height="14" rx="7" fill="#ffb599" opacity="0.9" />
+  </g>
+</svg>

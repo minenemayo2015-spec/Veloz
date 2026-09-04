@@ -1,0 +1,6 @@
+{
+  "name": "Velox Courier",
+  "description": "Plataforma de envíos, mensajería y rastreo en tiempo real para paquetería y documentos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
